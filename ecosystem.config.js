@@ -9,7 +9,7 @@ module.exports = {
 
   deploy : {
     production : {
-      user : 'hari',
+      user : 'balaji',
       host : '192.168.1.140',
       ref  : 'origin/master',
       repo : 'git@github.com/Harikrishnan-VCodingMart/task',
