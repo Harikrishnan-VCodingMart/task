@@ -14,7 +14,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com/Harikrishnan-VCodingMart/task.git',
       path : '/home/balaji/Documents/sep_14_task/3/task',
-      'post-deploy' : 'npm install && pm2 start index.js',
+      'post-deploy' : 'pm2 start index.js',
     }
   }
 };
